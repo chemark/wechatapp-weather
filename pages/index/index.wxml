@@ -9,7 +9,7 @@
       </view>
       <view class="cond">
         <!--<image src="{{icon}}"></image>-->
-        <text>{{cond}}  {{tmp}}℃</text>
+        <text>{{cond}}  {{tmp}}</text>
       </view>
       <view class="update">
         <text>{{update}}</text>
