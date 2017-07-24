@@ -1,0 +1,50 @@
+/**index.wxss**/
+
+.container {
+  padding: 0;
+  align-items: flex-start;
+  font-family: '微软雅黑'
+}
+
+#cover_block {
+  position: fixed;
+  top:0;
+  height: 220px;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 2;
+}
+#cover_map {
+  height: 220px;
+  width: 100%;
+  z-index: -1;
+}
+#cover_items {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: white;
+  z-index: 3;
+}
+
+.city {
+  margin: 100px 10px 10px;
+  font-size: 24px;
+}
+
+.cond {
+  margin: 10px;
+  font-size: 20px;
+}
+.cond image {
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+}
+
+.update {
+  margin: 30px 10px;
+  text-align: right;
+  font-size: 10px;
+}

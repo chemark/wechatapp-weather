@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+  <view id="header">
+    <image src="{{cover}}" id="cover_map" style="width:{{cover_width}}px;"></image>
+    <view id="cover_block"></view>
+    <view id="cover_items">
+      <view class="city">
+        <text>{{city}}</text>
+      </view>
+      <view class="cond">
+        <!--<image src="{{icon}}"></image>-->
+        <text>{{cond}}  {{tmp}}℃</text>
+      </view>
+      <view class="update">
+        <text>{{update}}</text>
+      </view>
+    </view>
+  </view>
+</view>
